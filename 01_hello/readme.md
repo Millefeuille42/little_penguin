@@ -9,6 +9,6 @@ Build a hello world kernel module
 - Makefile
 - Code
 
-## References
+## Resources
 
 - https://tldp.org/LDP/lkmpg/2.6/html/index.html

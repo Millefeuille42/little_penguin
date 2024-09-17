@@ -9,7 +9,6 @@ Build and boot a linux kernel
 - Kernel config file
 - Kernel boot log
 
-
 ## Resources
 
 - https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/
