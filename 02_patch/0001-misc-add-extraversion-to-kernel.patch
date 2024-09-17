@@ -1,0 +1,29 @@
+From 7ae2d03da69402f2dc4fb272924e990c44359a67 Mon Sep 17 00:00:00 2001
+From: mlabouri <mlabouri@student.42.fr>
+Date: Tue, 17 Sep 2024 08:51:16 -0400
+Subject: [PATCH] misc: add extraversion to kernel
+
+Add -thor_kernel to the extraversion of the kernel
+as requested in assignment 02 from little_penguin subject
+
+Signed-off-by: mlabouri <mlabouri@student.42.fr>
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 3f6628780eb2..051e699d58fb 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 6
+ PATCHLEVEL = 2
+ SUBLEVEL = 0
+-EXTRAVERSION =
++EXTRAVERSION = -thor_kernel
+ NAME = Hurr durr I'ma ninja sloth
+ 
+ # *DOCUMENTATION*
+-- 
+2.39.2
+
