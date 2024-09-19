@@ -1,0 +1,1 @@
+SUBSYSTEM=="usb", ACTION=="add", ATTRS{bInterfaceClass}=="03", ATTRS{bInterfaceProtocol}=="01" RUN+="/sbin/modprobe hello_keyboard"
